@@ -12,3 +12,4 @@ RUN rpm2cpio qemu-user-static-5.2.0-5.fc34.1.ppc64le.rpm | cpio -idmv
 #RUN chmod +x /qemu-binfmt-conf.sh
 #COPY qemu-*-static /usr/bin/
 #ENTRYPOINT ["/register"]
+CMD sleep 6000
