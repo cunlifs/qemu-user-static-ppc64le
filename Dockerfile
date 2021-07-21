@@ -1,4 +1,5 @@
 FROM busybox
+user root
 ENV QEMU_BIN_DIR=/usr/bin
 ADD ./register.sh /register
 ADD https://raw.githubusercontent.com/qemu/qemu/master/scripts/qemu-binfmt-conf.sh /qemu-binfmt-conf.sh
